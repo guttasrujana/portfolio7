@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      height:-10%;
+      
+     
+     
+  }
+       row {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+  box-shadow: 10px 10px 5px grey;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+<!--      <a class="navbar-brand" href="#">Logo</a>-->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Travello</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="pabout.html">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+<!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+-->
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox" height="20px">
+      <div class="item active">
+        <img src="3.jpg"  height="10">
+        <div class="carousel-caption">
+         
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="2.jpg.jpg" height="10">
+        <div class="carousel-caption">
+         
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  <h3 style="font-display: block;">What We Do</h3><br>
+  <div class="row">
+    <p style="width: 100%;
+  height: 200%;
+  padding: 15px;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 5px grey;
+              font-display: fallback;
+              font-size: 20px; ">Travello was the brainchild of two avid travellers, Ryan and Mark. They noticed there was no efficient way for travellers to connect with other travellers when they arrived at a destination. ... And from that, Travello was born. Travello's aim is to simply make travelling easier and to help travellers connect.Travello is an app made by, and for, Travellers. Connect with other travellers, search and match travel plans, find events in new destinations and solve all your problems on the noticeboard.One way to find a traveling partner is via the http://www.meetup.com/ web site which allows you to search for travel groups, or single groups, or any type of group that interests you.Travello is a global travel company and social network that's available on mobile platforms. The app includes a way for travellers to share their experience wherever they go and easily connect with other travellers wherever they go. The company is based in Queensland, Australia and was founded in 2014 by Mark Cantoni and Ryan Hanly. [2]Travello was the brainchild of two avid travellers, Ryan and Mark. They noticed there was no efficient way for travellers to connect with other travellers when they arrived at a destination. And also no way to communicate with travellers in the location they were heading to. Facebook just wasn’t cutting it!
+After much procrastination, it was a chance meeting with a group of backpackers on the Gold Coast that provided the final motivation to actually create this concept. They loved the idea and insisted that we actually do something about it. And from that, Travello was born.
+Travello’s aim is to simply make travelling easier and to help travellers connect. Hopefully you’ll make some lifelong friends along the way.</p>
+    </div>
+  </div>
+<br>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
+
